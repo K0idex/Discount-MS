@@ -175,20 +175,6 @@ Edit `config/app.php` to customize:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## ❓ FAQ
-
-**Q: How do I add more cards?**
-A: Edit the sample data in `src/DatabaseManager.php` or use the database management tools.
-
-**Q: Can I change the discount percentages?**
-A: Yes, modify the `allowed_percentages` array in `config/app.php`.
-
-**Q: How do I backup my data?**
-A: Copy the `storage/discount_system.db` file to a safe location.
-
-**Q: Can I use this in production?**
-A: Yes, but consider adding authentication and additional security measures.
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
